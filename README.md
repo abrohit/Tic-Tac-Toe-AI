@@ -13,7 +13,7 @@
 
 ![preview](./Previews/ScreenRecording.gif)
 
-The computer uses strategy to beat the opposite player.
+The computer uses strategy to beat the opposite player. The above gif is just a preview of what the computer can do.
 
 ## Tech Stack
 - Python
