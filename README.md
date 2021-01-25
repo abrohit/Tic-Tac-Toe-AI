@@ -11,6 +11,8 @@
 
 ## About the Project
 
+![preview](./Previews/ScreenRecording.gif)
+
 The computer uses strategy to beat the opposite player.
 
 ## Tech Stack
