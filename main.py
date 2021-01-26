@@ -45,7 +45,6 @@ gameList = [['','',''],#The 2d array of the tiles value
 def selectRandom(li):#Given a list it randomly selects an item in the list.
     ln = len(li)
     r = random.randrange(0, ln)
-    print(r)
     return li[r]
 
 def IsWinner(bo, le):
@@ -90,7 +89,6 @@ def CompMove():#Returns the comp move as a tuple.
 
     if len(edgesOpen) > 0:#If the edges are open it randomly selects one.
         move = selectRandom(edgesOpen)
-        print('edge')
         return move
 
     cornersOpen = []
@@ -100,7 +98,6 @@ def CompMove():#Returns the comp move as a tuple.
     
     if len(cornersOpen) > 0:#If the corners are open it randomly selects one.
         move = selectRandom(cornersOpen)
-        print('corners')
         return move
 
     return move#Returns 0 if no move is possible.
